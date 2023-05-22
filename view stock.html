@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>View Available Stock</title>
+        <link rel="stylesheet" href="style2.css">        
+     </head>   
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#"> Customer login/Register</a>
+                <a href="#">Customer Profile</a>
+                <a href="#">Cart</a>
+                <a href="#">Track Order</a>
+                <a href="#">Customer Review</a>
+                <a href="#">Employee login</a>
+                <a href="#">View Stock</a>
+                <a href="#">Update Stock</a>
+                <a href="#">Delivery Person</a>
+                 
+            </div>
+        </header>
+    
+        <div class="cl1">
+            <div class="cl1_1">
+                <h2>View Available Stock</h2>
+            </div>
+                <div class="cl2">
+                    <form action="search.php" method="POST">
+                        <fieldset class="p_Search">
+                            <center>
+                                <table>
+                                    <tr>
+                                        <td><label for="p_Code">Enter Product Code</label></td>
+                                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+                                        <td>
+                                            <input type="text" name="p_Code" id="p_Code" class="input" placeholder="Enter here">
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                        <button type="submit" id="button_search" onclick="displayStock()">Search</button>
+                                        <!-- <script>
+                                        function displayStock(){
+                                        window.open('display stock.html');
+                                        }
+                                        </script> -->
+                                        <input type="reset" value="clear" id="button_search" >                                     
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </form>
+                </div>
+                
+        </div>
+       
+        <footer>
+            <div>
+
+            </div>
+        </footer>
+        
+    </body>
+</html>
